@@ -1,0 +1,56 @@
+.mainBlock {
+  position: relative;
+  display: flex;
+  color: azure;
+  height: 100vh;
+}
+
+.imgBlock {
+  position: relative;
+  background-position: center;
+  object-fit: cover;
+  height: 100vh;
+  flex: 1;
+}
+
+.imgBlock div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, transparent, #222222);
+}
+
+.imgBlock img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.textBlock {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.content {
+  font-family: Poppins-Light;
+  font-size: 20px;
+  width: 500px;
+}
+
+.content span {
+  color: orange;
+}
+
+.tagLine {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  margin-top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Pubg;
+  font-size: 84px;
+}

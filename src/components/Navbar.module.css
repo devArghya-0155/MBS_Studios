@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+button {
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  color: orange;
+}
+
+.navbar {
+  background-color: #222222;
+  display: flex;
+  list-style: none;
+  padding: 8px 12px;
+}
+
+.navItems span {
+  font-family: Landasans-Medium;
+  font-size: 22px;
+}
